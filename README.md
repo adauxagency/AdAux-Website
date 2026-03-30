@@ -14,31 +14,6 @@ adaux/
 └── README.md     — This file
 ```
 
-## How to Run
-
-### Option A — Local (easiest)
-1. Download all files into a single folder
-2. Open `index.html` directly in Chrome or Firefox
-   - Note: some browsers block local `.jsx` scripts via Babel CDN.
-   - If it doesn't load, use Option B.
-
-### Option B — Local Dev Server (recommended)
-```bash
-# With Python
-cd adaux/
-python3 -m http.server 3000
-# Open http://localhost:3000
-
-# With Node (npx)
-npx serve .
-```
-
-### Option C — Deploy to Netlify / Vercel
-Drag the `adaux/` folder into Netlify Drop → live in seconds.  
-No build step needed — pure HTML + CDN React.
-
----
-
 ## Pages
 
 | Page     | Route (internal) | Description                          |
